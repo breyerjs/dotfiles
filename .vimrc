@@ -1,14 +1,14 @@
 " General
-syntax on				" syntax highlighting
-filetype plugin on		" use the file type plugins
-hi Normal ctermbg=none	" no background color
+syntax on " syntax highlighting
+filetype plugin on " use the file type plugins
+hi Normal ctermbg=none " no background color
 
 " Misc sets
-set history=1000		" keep 1000 lines of history
-set ruler				" show the cursor position
-set hlsearch			" highlight the last searched term
-set number				" Enable line numbers
-set cursorline    		" Show current line
+set history=1000 " keep 1000 lines of history
+set ruler " show the cursor position
+set hlsearch " highlight the last searched term
+set number " Enable line numbers
+set cursorline " Show current line
 
 " Indentation
 set autoindent
@@ -16,12 +16,12 @@ set smartindent
 set tabstop=4
 
 " Folding
-set foldmethod=indent   "fold based on indent
-set foldnestmax=6       "deepest fold is 6 levels
-set nofoldenable        "dont fold by default
+set foldmethod=indent " fold based on indent
+set foldnestmax=6 " deepest fold is 6 levels
+set nofoldenable " dont fold by default
 
 " Scrolling
-set scrolloff=8         "Start scrolling when we're 8 lines away from margins
+set scrolloff=8 " Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
 
