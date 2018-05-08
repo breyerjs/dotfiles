@@ -8,7 +8,7 @@ set history=1000		" keep 1000 lines of history
 set ruler				" show the cursor position
 set hlsearch			" highlight the last searched term
 set number				" Enable line numbers
-set cursorline			" Show current line
+set cursorline    		" Show current line
 
 " Indentation
 set autoindent
