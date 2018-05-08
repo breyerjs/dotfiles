@@ -83,8 +83,9 @@ nnoremap <C-H> <C-W><C-H>
 " remap esc
 inoremap jk <Esc>
 
-" remap for easy buffer switching
+" easy buffer switching
 nnoremap <Leader>bs :buffers<CR>:buffer<Space>
+" clear highlight from search
 nnoremap <Leader>nh :noh<CR>
 
 " scroll viewport more quickly
