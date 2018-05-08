@@ -7,8 +7,8 @@ hi Normal ctermbg=none	" no background color
 set history=1000        " keep 300 lines of history
 set ruler               " show the cursor position
 set hlsearch            " highlight the last searched term
-set number				      " Enable line numbers
-set cursorline 			    " Show current line
+set number				" Enable line numbers
+set cursorline 			" Show current line
 
 " Indentation
 set autoindent
