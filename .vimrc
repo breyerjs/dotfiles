@@ -51,6 +51,7 @@ Plug 'https://github.com/ctrlpvim/ctrlp.vim'
 Plug 'https://github.com/scrooloose/nerdtree'
 Plug 'https://github.com/scrooloose/nerdcommenter'
 Plug 'https://github.com/davidhalter/jedi-vim'
+Plug 'junegunn/goyo.vim'
 
 call plug#end()
 
@@ -74,6 +75,18 @@ let mapleader = ","
 " NERDTree Shortcut
 map <C-n> :NERDTreeToggle<CR>
 
+" Goyo 
+" (Goyo is a distraction-free writing mode
+" This toggles Goyo
+noremap <Leader>g :Goyo<CR>
+" This sets the viewport height to be a little taller (default is 50x50)
+let g:goyo_height = '75%'
+
+" These remapping make the movement by visual line
+" rather than by numbered line
+nnoremap <expr> k (v:count == 0 ? 'gk' : 'k')
+nnoremap <expr> j (v:count == 0 ? 'gj' : 'j')
+
 " keybindings to allow ctrl + dir for switching between splits
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -91,3 +104,4 @@ nnoremap <Leader>nh :noh<CR>
 " scroll viewport more quickly
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
+
