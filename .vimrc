@@ -53,6 +53,8 @@ Plug 'https://github.com/scrooloose/nerdtree'
 Plug 'https://github.com/scrooloose/nerdcommenter'
 Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'junegunn/goyo.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 call plug#end()
 
@@ -69,6 +71,13 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 " CtrlP Mappings
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" Ignore some folders and files for CtrlP indexing
+" Speeds up indexing
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.yardoc\|node_modules\|log\|tmp$',
+  \ 'file': '\.so$\|\.dat$|\.DS_Store$'
+  \ }
 
 " Map leader to comma
 let mapleader = ","
