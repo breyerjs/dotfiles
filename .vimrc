@@ -1,5 +1,3 @@
-" General
-syntax on " syntax highlighting
 filetype plugin on " use the file type plugins
 hi Normal ctermbg=none " no background color
 
@@ -82,6 +80,8 @@ let g:ctrlp_custom_ignore = {
 
 " Map leader to comma
 let mapleader = ","
+
+nnoremap <Leader>s :w<CR>
 
 " NERDTree Shortcut
 map <C-n> :NERDTreeToggle<CR>
