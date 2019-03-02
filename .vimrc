@@ -15,6 +15,7 @@ set linebreak " don't break in the middle of words
 set autoindent
 set smartindent
 set tabstop=4
+set breakindent " indent on linewrap
 
 " Folding
 set foldmethod=indent " fold based on indent
