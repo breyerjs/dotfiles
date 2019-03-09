@@ -2,10 +2,10 @@
 ###### Aliases ######
 
 # bash abbreviations
-alias ls="ls -F"
-alias la="ls -aF" 
-alias l="ls -lF"
-alias ll="ls -laF"
+alias ls="exa -F"
+alias la="exa -aF" 
+alias l="exa -lF"
+alias ll="exa -laF --grid"
 alias copy="pbcopy"
 alias c="clear"
 
