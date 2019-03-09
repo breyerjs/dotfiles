@@ -2,10 +2,11 @@
 ###### Aliases ######
 
 # bash abbreviations
+## (exa is an ls replacement)
 alias ls="exa -F"
 alias la="exa -aF" 
 alias l="exa -lF"
-alias ll="exa -laF --grid"
+alias ll="exa -laF --grid" # --grid is an exa-specific flag
 alias copy="pbcopy"
 alias c="clear"
 
