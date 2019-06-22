@@ -57,15 +57,16 @@ Plug 'mxw/vim-jsx'
 
 call plug#end()
 
+" POWERLINE CONFIG
 " Theme
-let g:airline_theme='base16color'
+let g:airline_theme='base16'
 colo nord
-
 " Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
-
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
+" Enable powerline fonts because why not
+let g:airline_powerline_fonts = 1
 
 " CtrlP Mappings
 let g:ctrlp_map = '<c-p>'
